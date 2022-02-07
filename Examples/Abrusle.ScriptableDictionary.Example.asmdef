@@ -1,11 +1,10 @@
 {
     "name": "Abrusle.ScriptableDictionary.Example",
+    "rootNamespace": "",
     "references": [
         "Abrusle.ScriptableDictionary"
     ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
