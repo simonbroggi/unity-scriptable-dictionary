@@ -19,6 +19,7 @@ MonoBehaviour:
     multiplier: 0
     settings: {fileID: 0}
   - name: 
-    damageAmount: 0
-    multiplier: 0
+    damageAmount: 1.92
+    multiplier: 0.21
     settings: {fileID: 0}
+  spellClass: water vortex

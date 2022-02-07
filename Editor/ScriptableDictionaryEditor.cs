@@ -79,11 +79,11 @@ namespace ScriptableDictionaries.Editor
         /// <inheritdoc />
         public override void OnInspectorGUI()
         {
+            DrawDefaultInspector();
             if (_properties.keys == null || _properties.values == null)
             {
                 HelpBox("Invalid ScriptableDictionary", MessageType.Error);
                 GUI.enabled = false;
-                DrawDefaultInspector();
                 return;
             }
             

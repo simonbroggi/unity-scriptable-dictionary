@@ -16,8 +16,8 @@ public class ScriptableDictionary<TKey, TValue> : ScriptableDictionaryBase,
     IDictionary<TKey, TValue>,
     IReadOnlyDictionary<TKey, TValue>
 {
-    [SerializeField] private List<TKey> keys;
-    [SerializeField] private List<TValue> values;
+    [SerializeField, HideInInspector] private List<TKey> keys;
+    [SerializeField, HideInInspector] private List<TValue> values;
 
     private void Awake()
     {
